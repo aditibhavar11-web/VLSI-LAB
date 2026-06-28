@@ -1,0 +1,53 @@
+$date
+	Fri Jun 19 05:03:19 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module half_sub_tb $end
+$var wire 1 ! sub $end
+$var wire 1 " borrow $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var integer 32 % i [31:0] $end
+$scope module dut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 " Borrow $end
+$var wire 1 ! Sub $end
+$var wire 1 & n $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1&
+b0 %
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1"
+1$
+b1 %
+#20
+0&
+0"
+1#
+0$
+b10 %
+#30
+0!
+1$
+b11 %
+#40
+b100 %

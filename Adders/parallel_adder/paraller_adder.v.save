@@ -1,0 +1,8 @@
+module paraller_adder(
+input [3:0]A,[3:0]B,Cin,
+output [3:0]S,[3:0]C);
+
+full_adder(S0,A0,B0,Cin);
+full_adder(S1,A1,B1,C0);
+full_adder(S2,A2,B2,C1);
+full_adder(S3,A3,B3,C2);
